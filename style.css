@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(21, 21, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    color: rgb(21, 21, 53);
+    padding: 0.6rem;
+    width: 50%;
+    font-weight: 700;
+    border: none;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(1, 1, 70);
+}
